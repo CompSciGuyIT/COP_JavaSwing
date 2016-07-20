@@ -1,0 +1,7 @@
+package customComponents;
+
+import JPanel;
+
+public class TextPanel extends JPanel {
+
+}
