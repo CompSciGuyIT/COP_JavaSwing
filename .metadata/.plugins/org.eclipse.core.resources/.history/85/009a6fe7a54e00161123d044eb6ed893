@@ -15,9 +15,6 @@ public class MainFrame extends JFrame {
 	
 	public MainFrame() {
 		super("Hello World");
-		printToConsole();
-
-		System.out.println("After super");
 		
 		setLayout(new BorderLayout());
 		
@@ -42,10 +39,5 @@ public class MainFrame extends JFrame {
 		setSize(600, 500);
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setVisible(true);
-	}
-	
-	public void printToConsole() {
-
-		System.out.println("printing method");
 	}
 }
